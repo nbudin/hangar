@@ -11,4 +11,8 @@ class ApplicationController
   def call(env)
     [200, {"Content-Type" => "text/html"}, ["<h1>Hello, MacRuby!</h1>"]]
   end
+  
+  def applicationShouldTerminateAfterLastWindowClosed(application)
+	true
+  end
 end
