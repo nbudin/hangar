@@ -14,7 +14,7 @@ framework 'WebKit'
 # Loading all the Ruby project files.
 dir_path = NSBundle.mainBundle.resourcePath.fileSystemRepresentation
 Dir.entries(dir_path).each do |path|
-  if path != File.basename(__FILE__) and path[-3..-1] == '.rb'
+  if path != File.basename(__FILE__) and path.match(/\.rbo?$/)
     require(path)
   end
 end
