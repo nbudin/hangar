@@ -1,6 +1,6 @@
 require "stringio"
 
-class RackURLProtocol < NSURLProtocol
+class RackURLProtocol < WorkaroundURLProtocol
   class << self
     def apps
       @apps ||= {}
