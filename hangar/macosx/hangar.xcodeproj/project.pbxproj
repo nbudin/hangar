@@ -52,8 +52,9 @@
 		66F4173612B9204A00CC1356 /* vendor in Resources */ = {isa = PBXBuildFile; fileRef = 66F4167612B9204A00CC1356 /* vendor */; };
 		66F4173912B9215B00CC1356 /* Gemfile in Resources */ = {isa = PBXBuildFile; fileRef = 66F4173712B9215B00CC1356 /* Gemfile */; };
 		66F4173A12B9215B00CC1356 /* Gemfile.lock in Resources */ = {isa = PBXBuildFile; fileRef = 66F4173812B9215B00CC1356 /* Gemfile.lock */; };
-		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
-		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
+		66F4196012B9731900CC1356 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 66F4195F12B9731900CC1356 /* Info.plist */; };
+		66F41AAE12B9736800CC1356 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 66F41AAA12B9736800CC1356 /* InfoPlist.strings */; };
+		66F41AAF12B9736800CC1356 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 66F41AAC12B9736800CC1356 /* MainMenu.nib */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
@@ -73,22 +74,22 @@
 /* Begin PBXFileReference section */
 		03AD2EA210B7C66B00BA21AE /* hangar_application_controller.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = hangar_application_controller.rb; sourceTree = "<group>"; };
 		03AD2EA410B7C68500BA21AE /* rack_url_protocol.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = rack_url_protocol.rb; sourceTree = "<group>"; };
-		089C165DFE840E0CC02AAC07 /* English */ = {isa = PBXFileReference; fileEncoding = 10; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = /System/Library/Frameworks/Cocoa.framework; sourceTree = "<absolute>"; };
 		13E42FB307B3F0F600E4EEF1 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		29B97319FDCFA39411CA2CEA /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		29B97324FDCFA39411CA2CEA /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = /System/Library/Frameworks/AppKit.framework; sourceTree = "<absolute>"; };
 		29B97325FDCFA39411CA2CEA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		4DE339F60D74FCDD00ADB6EE /* rb_main.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
 		4DE3BE130D8651D900ECA448 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = /Library/Frameworks/MacRuby.framework; sourceTree = "<absolute>"; };
 		6675397E12B7DB180036A34E /* WorkaroundURLProtocol.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WorkaroundURLProtocol.h; sourceTree = "<group>"; };
 		6675397F12B7DB180036A34E /* WorkaroundURLProtocol.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WorkaroundURLProtocol.m; sourceTree = "<group>"; };
-		66F4167012B913D400CC1356 /* config.ru */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = config.ru; sourceTree = "<group>"; };
-		66F4167612B9204A00CC1356 /* vendor */ = {isa = PBXFileReference; lastKnownFileType = folder; path = vendor; sourceTree = "<group>"; };
-		66F4173712B9215B00CC1356 /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile; sourceTree = "<group>"; };
-		66F4173812B9215B00CC1356 /* Gemfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Gemfile.lock; sourceTree = "<group>"; };
-		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F4167012B913D400CC1356 /* config.ru */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = config.ru; path = ../../config.ru; sourceTree = "<group>"; };
+		66F4167612B9204A00CC1356 /* vendor */ = {isa = PBXFileReference; lastKnownFileType = folder; name = vendor; path = ../../vendor; sourceTree = "<group>"; };
+		66F4173712B9215B00CC1356 /* Gemfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Gemfile; path = ../../Gemfile; sourceTree = "<group>"; };
+		66F4173812B9215B00CC1356 /* Gemfile.lock */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Gemfile.lock; path = ../../Gemfile.lock; sourceTree = "<group>"; };
+		66F4195F12B9731900CC1356 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		66F41AAB12B9736800CC1356 /* English */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; name = English; path = English.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		66F41AAD12B9736800CC1356 /* English */ = {isa = PBXFileReference; lastKnownFileType = wrapper.nib; name = English; path = English.lproj/MainMenu.nib; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* HangarApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HangarApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -147,8 +148,8 @@
 				66F4167612B9204A00CC1356 /* vendor */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
-				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				66F41AA012B9734500CC1356 /* Resources */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
 				66F4167012B913D400CC1356 /* config.ru */,
 			);
@@ -168,16 +169,6 @@
 			name = "Other Sources";
 			sourceTree = "<group>";
 		};
-		29B97317FDCFA39411CA2CEA /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				8D1107310486CEB800E47090 /* Info.plist */,
-				089C165CFE840E0CC02AAC07 /* InfoPlist.strings */,
-				29B97318FDCFA39411CA2CEA /* MainMenu.nib */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -185,6 +176,16 @@
 				1058C7A2FEA54F0111CA2CBB /* Other Frameworks */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		66F41AA012B9734500CC1356 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				66F41AAA12B9736800CC1356 /* InfoPlist.strings */,
+				66F41AAC12B9736800CC1356 /* MainMenu.nib */,
+				66F4195F12B9731900CC1356 /* Info.plist */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,14 +238,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				66F4167112B913EA00CC1356 /* config.ru in Resources */,
-				8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */,
-				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				4DE339F70D74FCDD00ADB6EE /* rb_main.rb in Resources */,
 				03AD2EA310B7C66B00BA21AE /* hangar_application_controller.rb in Resources */,
 				03AD2EA510B7C68500BA21AE /* rack_url_protocol.rb in Resources */,
 				66F4173612B9204A00CC1356 /* vendor in Resources */,
 				66F4173912B9215B00CC1356 /* Gemfile in Resources */,
 				66F4173A12B9215B00CC1356 /* Gemfile.lock in Resources */,
+				66F4196012B9731900CC1356 /* Info.plist in Resources */,
+				66F41AAE12B9736800CC1356 /* InfoPlist.strings in Resources */,
+				66F41AAF12B9736800CC1356 /* MainMenu.nib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,18 +335,18 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
+		66F41AAA12B9736800CC1356 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				089C165DFE840E0CC02AAC07 /* English */,
+				66F41AAB12B9736800CC1356 /* English */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		29B97318FDCFA39411CA2CEA /* MainMenu.nib */ = {
+		66F41AAC12B9736800CC1356 /* MainMenu.nib */ = {
 			isa = PBXVariantGroup;
 			children = (
-				29B97319FDCFA39411CA2CEA /* English */,
+				66F41AAD12B9736800CC1356 /* English */,
 			);
 			name = MainMenu.nib;
 			sourceTree = "<group>";
