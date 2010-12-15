@@ -3,3 +3,5 @@ build
 *.tmproj
 *.mode1*
 *.build
+vendor/*
+.bundle/*
